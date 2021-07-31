@@ -83,16 +83,15 @@ header .navigation li a:hover
 }
 
 .text{
-    width: 80%;
+    width: 90%;
     color: #fff;
-    margin: 16% auto 0 50%;
+    margin: 16% auto 0;
     text-align: center;
-    padding-left: 3%;
 }
 
 .text h2{
-    font-size: 64px;
-    margin-top: 60px;
+    font-size: 84px;
+    margin-top: 80px;
 }
 
 .text a{
@@ -109,6 +108,39 @@ header .navigation li a:hover
 .text a: hover{
     background-color: transparent;
 }
+
+.Home .content .text
+{
+	max-width: 900px;
+	text-align: center;
+}
+
+.Home .content .text h1 
+{
+	font-size: 5em;
+	color: #fff;
+}
+
+.Home .content .text p
+{
+	font-size: 1em;
+	color: #fff;
+}
+
+.Home .content .text .btn
+{
+	font-size: 1em;
+	color: #fff;
+	background: #ff0157;
+	display: inline-block;
+	padding: 10px 30px;
+	margin-top: 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	letter-spacing: 2px;
+	transition: 0.5s;
+}
+
 
 .Menu .block{
     width: 100%;
@@ -246,5 +278,4 @@ header .navigation li a:hover
             color: yellow;
             padding-left: 20px;
         }
-       
        
